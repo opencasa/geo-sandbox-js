@@ -27,9 +27,11 @@ document.addEventListener('DOMContentLoaded', function () {
     function processPosition(event) {
         status.innerHTML = "Lat : " + event.coords.latitude + "° Long : " + event.coords.longitude + "° Precision : " + event.coords.accuracy + "m.";
         marker.setLatLng([event.coords.latitude, event.coords.longitude]);
-        map.setView([event.coords.latitude, event.coords.longitude], 16);
         circle.setLatLng([event.coords.latitude, event.coords.longitude]);
         circle.setRadius(event.coords.accuracy);
+        if (!map.getBounds().contains([event.coords.latitude, event.coords.longitude])) {
+            map.setView([event.coords.latitude, event.coords.longitude], 16);
+        }
     }
 
     function errorPosition() {
