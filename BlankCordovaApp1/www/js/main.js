@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
 	
 	//map (leaflet : http://leafletjs.com/examples/quick-start.html)
 	var map = L.map('myMap');
-	map.setView([0, 0], 3);
+	map.setView([43.7139654, 7.2891412], 16);
 
 	//map pattern (WTMS). mapbox, ign, osm, ... 
 	//var mapPatternUrl = "http://tile.stamen.com/toner/{z}/{x}/{y}.png";
@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', function(){
 	polygon.bindPopup("The polygon.");
 	polygon.addTo(map);
 
-	/*
+	
 	function onMapClick(e) {
 		marker.setLatLng(e.latlng);
 	}
 	map.on('click', onMapClick);
-	*/
+	
 
 });
