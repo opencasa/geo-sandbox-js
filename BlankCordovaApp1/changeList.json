@@ -57,7 +57,6 @@
     "www\\css\\index.css",
     "res\\icons\\windows\\StoreLogo.scale-240.png",
     "plugins\\org.apache.cordova.geolocation\\RELEASENOTES.md",
-    "js\\main.js",
     "plugins\\windows.json",
     "res\\screens\\ios\\screen-ipad-landscape.png",
     "plugins\\org.apache.cordova.geolocation\\doc\\ru\\index.md",
@@ -171,11 +170,16 @@
     "plugins\\org.apache.cordova.camera\\plugin.xml",
     "plugins\\org.apache.cordova.camera\\src\\ubuntu\\camera.h",
     "www\\js\\winstore-jscompat.js",
-    "js\\images\\marker-icon-2x.png",
-    "js\\images\\marker-icon.png",
-    "js\\images\\marker-shadow.png"
+    "www\\js\\images\\marker-icon-2x.png",
+    "www\\js\\images\\marker-shadow.png",
+    "www\\js\\images\\marker-icon.png"
   ],
-  "deletedFilesIos": [],
+  "deletedFilesIos": [
+    "js\\images\\marker-icon.png",
+    "js\\images\\marker-shadow.png",
+    "js\\images\\marker-icon-2x.png",
+    "js\\main.js"
+  ],
   "addedPluginsIos": [
     "org.apache.cordova.geolocation@0.3.12",
     "org.apache.cordova.camera@0.3.6"
