@@ -172,7 +172,8 @@
     "www\\js\\winstore-jscompat.js",
     "www\\js\\images\\marker-icon-2x.png",
     "www\\js\\images\\marker-shadow.png",
-    "www\\js\\images\\marker-icon.png"
+    "www\\js\\images\\marker-icon.png",
+    "www\\js\\utils.js"
   ],
   "deletedFilesIos": [
     "js\\images\\marker-icon.png",
